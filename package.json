@@ -1,0 +1,25 @@
+{
+  "name": "get-languages-in-org",
+  "version": "1.0.0",
+  "description": "Get all repos in an org, get the count, and then the count of repos with codeql-supported languages",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc index.ts",
+    "start": "node index.js"
+  },
+  "author": "Leonardo Quimbaya",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "octokit": "^4.0.2",
+    "typescript": "^5.6.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.10.0",
+    "@types/node": "^22.5.4",
+    "eslint": "^9.10.0",
+    "globals": "^15.9.0"
+  }
+}
